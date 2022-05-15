@@ -18,16 +18,25 @@
     <div id="search-bar" class="container-fluid">
         <aside class="col-md-2 bg-light">
             <label for="citysearch" class="form-label">Search for City</label>
-            <input type="text" class="form-control">
+            <input type="text" id="search-input" class="form-control">
             <div class="form-text">
                 Your Previously searched cities will be saved below
             </div>
             <button class="btn btn-info" id="search-button">Search</button>
+
+            <!-- a list to show previous search terms -->
+            <ul class="list-group list-group-flush past-search"></ul>
         </aside> 
 
-        
-
+        <div class="col-9">
+            <!-- a place to show todays forecast -->
+            <div id="pres-forecast" class="mt-3"></div>
+            <!-- card to hold the forecast -->
+            <div id="pres-weather" class="card mt-3"></div>
+        </div>
     </div>
+
+    <div 
     
 
 
